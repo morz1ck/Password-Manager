@@ -11,14 +11,7 @@
 - Отображение таблицы со всеми сохранёнными записями
 - Минималистичный интерфейс на PyQt5
 
-## Используемые технологии
 
-| Библиотека     | Назначение |
-|----------------|------------|
-| PyQt5      | GUI-интерфейс |
-| sqlite3    | Встроенная база данных |
-| pyperclip  | Работа с буфером обмена |
-| cryptography или pycryptodome | Шифрование и дешифрование паролей |
 
 ## Установка
 
@@ -26,7 +19,7 @@
 git clone https://github.com/morz1ck/Password-Manager.git
 cd Password-Manager
 
-# (опционально) создать и активировать виртуальное окружение
+# опционально
 python -m venv venv
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # Linux/macOS
